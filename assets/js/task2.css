@@ -1,0 +1,64 @@
+.slider{
+    width: 700px;
+    height: 293px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 100px;
+
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s;
+    opacity: 0;
+
+
+
+  
+}
+
+.slider i{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 130px;
+}
+
+.slider .left{
+ left: 100px;
+
+}
+.slider .right{
+   right: 100px;
+}
+.active-img{
+    opacity: 1 !important;
+}
+.carousel-indicators{
+    display: flex;
+
+    position: relative;
+
+}
+.lines{
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 250px;
+    z-index: 1;
+ 
+    
+    
+
+}
+button{
+    background-color: black;
+    width: 30px;
+    border-color: black;
+}
+
+
+
+
